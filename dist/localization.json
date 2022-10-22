@@ -1,0 +1,12 @@
+{
+  "localization": {
+    "test-1": {
+      "en": "1 en",
+      "cn": "1 cn"
+    },
+    "test-2": {
+      "en": "2 en",
+      "cn": "2 cn"
+    }
+  }
+}
