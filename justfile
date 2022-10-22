@@ -21,6 +21,7 @@ preview:
 push:
     rm -rf dist/
     yarn build
+    mv dist docs
     git add .
     git commit -m "build"
     git push origin main
