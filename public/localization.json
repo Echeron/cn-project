@@ -27,6 +27,18 @@
     "credits": {
       "en": "Credits",
       "cn": "参考"
+    },
+    "main-dish": {
+      "en": "Main Dishes",
+      "cn": "TODO"
+    },
+    "sides": {
+      "en": "Sides",
+      "cn": "配菜"
+    },
+    "drinks": {
+      "en": "Drinks",
+      "cn": "饮料"
     }
   }
 }
