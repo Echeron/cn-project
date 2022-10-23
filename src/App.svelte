@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row">
           <MenuCard title_key="soup1" desc_key="" btn_key="select" img_src="imgs/noodle.jpg"/>
-          <MenuCard title_key="soup2" desc_key="" btn_key="select" img_src="imgs/egg.jpg"/>
+          <MenuCard title_key="soup2" desc_key="" btn_key="select" img_src="imgs/eegg.jpg"/>
         </div>
       </div>
     </div>
@@ -90,7 +90,7 @@
       <div class="container">
         <div class="row">
           <RecipeCard title_key="soup1" img_src="imgs/noodle.jpg" url="https://www.bbcgoodfood.com/recipes/crossing-the-bridge-noodles"/>
-          <RecipeCard title_key="soup2" img_src="imgs/egg.jpg" url="https://thewoksoflife.com/egg-drop-soup/ "/>
+          <RecipeCard title_key="soup2" img_src="imgs/eegg.jpg" url="https://thewoksoflife.com/egg-drop-soup/ "/>
         </div>
       </div>
     </div>
