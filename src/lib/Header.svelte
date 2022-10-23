@@ -14,7 +14,6 @@
                 <li><a on:click={() => page = 0} href={"#"} class="nav-link px-2 text-secondary" data-key="home">aaaaaaa</a></li>
                 <li><a on:click={() => page = 1} href={"#"} class="nav-link px-2 text-white" data-key="menu">Menu</a></li>
                 <li><a on:click={() => page = 2} href={"#"} class="nav-link px-2 text-white" data-key="recipes">Recipes</a></li>
-                <li><a on:click={() => page = 3} href={"#"} class="nav-link px-2 text-white" data-key="credits">Credits</a></li>
             </ul>
 
             <div class="dropdown">

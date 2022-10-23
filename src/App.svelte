@@ -2,6 +2,7 @@
   import { afterUpdate, onMount } from "svelte";
   import Header from "./lib/Header.svelte";
     import MenuCard from "./lib/MenuCard.svelte";
+    import RecipeCard from "./lib/RecipeCard.svelte";
 
   let page: number = 0;
   let localization: any = undefined;
@@ -47,12 +48,14 @@
   </div>
   {:else if page === 1}
   <div>
+    <h4 class="pt-4" data-key="mealdeal">Meal Deal: fwefubifbewkjfbnkejwn</h4>
+
     <h1 class="p-3" data-key="main-dish">Dish 1</h1>
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/hamburger.png"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/cn-flag.png"/>
+          <MenuCard title_key="soup1" desc_key="" btn_key="select" img_src="imgs/noodle.jpg"/>
+          <MenuCard title_key="soup2" desc_key="" btn_key="select" img_src="imgs/egg.jpg"/>
         </div>
       </div>
     </div>
@@ -61,10 +64,10 @@
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/baozi.jpg"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/vbaozi.jpg"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/youtiao-14.jpg"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/rice.jpg"/>
+          <MenuCard title_key="bun" desc_key="" btn_key="select" img_src="imgs/baozi.jpg"/>
+          <MenuCard title_key="vbun" desc_key="" btn_key="select" img_src="imgs/vbaozi.jpg"/>
+          <MenuCard title_key="dough" desc_key="" btn_key="select" img_src="imgs/youtiao-14.jpg"/>
+          <MenuCard title_key="rice" desc_key="" btn_key="select" img_src="imgs/rice.jpg"/>
         </div>
       </div>
     </div>
@@ -73,20 +76,37 @@
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/water.png"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/tea.jpg"/>
-          <MenuCard title_key="" desc_key="" btn_key="" img_src="imgs/coffee.png"/>
+          <MenuCard title_key="water" desc_key="" btn_key="select" img_src="imgs/water.png"/>
+          <MenuCard title_key="tea" desc_key="" btn_key="select" img_src="imgs/tea.jpg"/>
+          <MenuCard title_key="coffee" desc_key="" btn_key="select" img_src="imgs/coffee.png"/>
         </div>
       </div>
     </div>
   </div>
   {:else if page === 2}
   <div>
-    <h1 data-key="test-1"></h1>
-  </div>
-  {:else if page === 3}
-  <div>
-    <h1 data-key="test-1"></h1>
+    <h1 class="p-3" data-key="main-dish">Dish 1</h1>
+    <div class="flex-fill flex-column d-flex">
+      <div class="container">
+        <div class="row">
+          <RecipeCard title_key="soup1" img_src="imgs/noodle.jpg" url="https://www.bbcgoodfood.com/recipes/crossing-the-bridge-noodles"/>
+          <RecipeCard title_key="soup2" img_src="imgs/egg.jpg" url="https://thewoksoflife.com/egg-drop-soup/ "/>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="p-3" data-key="sides">Dish 1</h1>
+    <div class="flex-fill flex-column d-flex">
+      <div class="container">
+        <div class="row">
+          <RecipeCard title_key="bun" img_src="imgs/baozi.jpg" url="https://www.delish.com/cooking/recipe-ideas/a33516689/steamed-buns-baozi-recipe/"/>
+          <RecipeCard title_key="vbun" img_src="imgs/vbaozi.jpg" url="https://www.aheadofthyme.com/shanghai-style-vegetarian-steamed-buns/ "/>
+          <RecipeCard title_key="dough" img_src="imgs/youtiao-14.jpg" url="https://thewoksoflife.com/youtiao-recipe/"/>
+        </div>
+      </div>
+    </div>
+
+  
   </div>
   {:else}
   <h1>Fatal Error</h1>

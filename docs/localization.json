@@ -30,7 +30,7 @@
     },
     "main-dish": {
       "en": "Main Dishes",
-      "cn": "TODO"
+      "cn": "碗汤"
     },
     "sides": {
       "en": "Sides",
@@ -39,6 +39,54 @@
     "drinks": {
       "en": "Drinks",
       "cn": "饮料"
+    },
+    "mealdeal": {
+      "en": "*Meal deal: 1 main dish, 1 side, and 1 drink = $7.25",
+      "cn": "*饭交易：一碗汤，一个配菜，一杯 = $7.25"
+    },
+    "select": {
+      "en": "Select",
+      "cn": "选择"
+    },
+    "soup1": {
+      "en": "Crossing the Bridge Noodles",
+      "cn": "过桥米线"
+    },
+    "soup2": {
+      "en": "Egg Drop Soup",
+      "cn": "蛋花汤"
+    },
+    "bun": {
+      "en": "Steamed Buns",
+      "cn": "包子"
+    },
+    "vbun": {
+      "en": "Vegetarian Steamed Buns",
+      "cn": "素菜包子"
+    },
+    "dough": {
+      "en": "Deep Fried Dough Sticks",
+      "cn": "油条"
+    },
+    "rice": {
+      "en": "Rice",
+      "cn": "米饭"
+    },
+    "water": {
+      "en": "Water",
+      "cn": "一瓶水"
+    },
+    "tea": {
+      "en": "Green Tea",
+      "cn": "一瓶绿茶"
+    },
+    "coffee": {
+      "en": "Coffee",
+      "cn": "一瓶咖啡"
+    },
+    "r-btn": {
+      "en": "Go To Recipe",
+      "cn": "TODO"
     }
   }
 }
