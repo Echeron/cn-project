@@ -1,5 +1,9 @@
 {
   "localization": {
+    "": {
+      "en": "TODO",
+      "cn": "TODO"
+    },
     "test-1": {
       "en": "1 en",
       "cn": "1 cn"
@@ -7,6 +11,22 @@
     "test-2": {
       "en": "2 en",
       "cn": "2 cn"
+    },
+    "home": {
+      "en": "Home",
+      "cn": "主页"
+    },
+    "menu": {
+      "en": "Menu",
+      "cn": "菜单"
+    },
+    "recipes": {
+      "en": "Recipes",
+      "cn": "食谱"
+    },
+    "credits": {
+      "en": "Credits",
+      "cn": "参考"
     }
   }
 }

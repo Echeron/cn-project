@@ -11,8 +11,10 @@
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a on:click={() => page = 0} href={"#"} class="nav-link px-2 text-secondary" data-key="test-1">Home</a></li>
-                <li><a on:click={() => page = 1} href={"#"} class="nav-link px-2 text-white">Features</a></li>
+                <li><a on:click={() => page = 0} href={"#"} class="nav-link px-2 text-secondary" data-key="home">aaaaaaa</a></li>
+                <li><a on:click={() => page = 1} href={"#"} class="nav-link px-2 text-white" data-key="menu">Menu</a></li>
+                <li><a on:click={() => page = 2} href={"#"} class="nav-link px-2 text-white" data-key="recipes">Recipes</a></li>
+                <li><a on:click={() => page = 3} href={"#"} class="nav-link px-2 text-white" data-key="credits">Credits</a></li>
             </ul>
 
             <div class="dropdown">
@@ -22,13 +24,13 @@
                 <ul class="dropdown-menu dropdown-menu-dark mx-0 border-0 shadow w-220px">
                     <li>
                         <a on:click={() => lang = "cn"} class="dropdown-item d-flex gap-2 align-items-center" href={"#"}>
-                            <svg class="bi" width="16" height="16"><use xlink:href="#files"></use></svg> <!-- TODO: Chinese Flag -->
-                            Chinese
+                            <img class="bi" src="imgs/cn-flag.png" alt="Chinese Flag" width="16" height="16"/>
+                            简体中文
                         </a>
                     </li>
                     <li>
                         <a on:click={() => lang = "en"} class="dropdown-item d-flex gap-2 align-items-center" href={"#"}>
-                            <svg class="bi" width="16" height="16"><use xlink:href="#image-fill"></use></svg> <!-- TODO: US Flag -->
+                            <img class="bi" src="imgs/hamburger.png" alt="Definitely American Flag" width="16" height="16"/>
                             English
                         </a>
                     </li>

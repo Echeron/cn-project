@@ -20,6 +20,7 @@ preview:
 # Build the project and push the new version to the origin
 push:
     rm -rf dist/
+    rm -rf docs/
     yarn build
     mv dist docs
     git add .
