@@ -43,8 +43,12 @@
 <Header bind:page bind:lang></Header>
 <main class="d-flex flex-column text-center align-content-center align-items-center mt-3">
   {#if page === 0}
-  <div class="container">
-
+  <div class="container mx-auto" style="width: 75%;">
+    <p class="pt-3" data-key="p1">para 1</p>
+    <a href="https://goo.gl/maps/jQZx1EoMdCXeQt2e9" rel="noreferrer" target="_blank" class="pb-5" data-key="locate">Locate us here!</a>
+    <br>
+    <img class="pt-4" src="imgs/Yale.webp" alt="something">
+    <p class="pt-5" data-key="p2">para 2</p>
   </div>
   {:else if page === 1}
   <div>
@@ -64,10 +68,10 @@
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="bun" desc_key="" btn_key="select" img_src="imgs/baozi.jpg"/>
-          <MenuCard title_key="vbun" desc_key="" btn_key="select" img_src="imgs/vbaozi.jpg"/>
-          <MenuCard title_key="dough" desc_key="" btn_key="select" img_src="imgs/youtiao-14.jpg"/>
-          <MenuCard title_key="rice" desc_key="" btn_key="select" img_src="imgs/rice.jpg"/>
+          <MenuCard title_key="bun" desc_key="dbun" btn_key="select" img_src="imgs/baozi.jpg"/>
+          <MenuCard title_key="vbun" desc_key="dvbun" btn_key="select" img_src="imgs/vbaozi.jpg"/>
+          <MenuCard title_key="dough" desc_key="ddough" btn_key="select" img_src="imgs/youtiao-14.jpg"/>
+          <MenuCard title_key="rice" desc_key="drice" btn_key="select" img_src="imgs/rice.jpg"/>
         </div>
       </div>
     </div>
@@ -76,9 +80,9 @@
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="water" desc_key="" btn_key="select" img_src="imgs/water.png"/>
-          <MenuCard title_key="tea" desc_key="" btn_key="select" img_src="imgs/tea.jpg"/>
-          <MenuCard title_key="coffee" desc_key="" btn_key="select" img_src="imgs/coffee.png"/>
+          <MenuCard title_key="water" desc_key="bwater" btn_key="select" img_src="imgs/water.png"/>
+          <MenuCard title_key="tea" desc_key="btea" btn_key="select" img_src="imgs/tea.jpg"/>
+          <MenuCard title_key="coffee" desc_key="bcoffee" btn_key="select" img_src="imgs/coffee.png"/>
         </div>
       </div>
     </div>

@@ -86,7 +86,51 @@
     },
     "r-btn": {
       "en": "Go To Recipe",
+      "cn": "去食谱"
+    },
+    "lang": {
+      "en": "Language",
+      "cn": "语言"
+    },
+    "bwater": {
+      "en": "A bottle of chilled water.",
+      "cn": "一杯冰水。"
+    },
+    "btea": {
+      "en": "A bottle of iced green tea.",
+      "cn": "一杯冰绿茶。"
+    },
+    "bcoffee": {
+      "en": "A bottle of chilled cold brew coffee.",
+      "cn": "一杯冰咖啡。"
+    },
+    "dbun": {
+      "en": "TODO",
       "cn": "TODO"
+    },
+    "dvbun": {
+      "en": "TODO",
+      "cn": "TODO"
+    },
+    "ddough": {
+      "en": "TODO",
+      "cn": "TODO"
+    },
+    "drice": {
+      "en": "A scoop of rice served on the side.",
+      "cn": "一勺米饭放在一边。"
+    },
+    "p1": {
+      "en": "A restaurant for all your college student needs. Enjoy warm Chinese food while you study on a cold day with savory salty foods and a drink of your choice.",
+      "cn": "大学生饭馆。冷天学习，吃热中国菜，咸味的，盐的，好吃极了。"
+    },
+    "p2": {
+      "en": "A website made for my 201 Chinese class. It brings together many Chinese dishes for a faux restaurant designed to cater to college students with warm dishes that can be made cheaply. Recipes for dishes to be made at home can be found under recipes, which are all in English for convenience.",
+      "cn": "为我的201中文课作的网站。它显示假饭馆的中国菜。它热便宜的饭迎合大学生。食谱可以在家作，他们是英文的。"
+    },
+    "locate": {
+      "en": "Locate us Here!",
+      "cn": "地址"
     }
   }
 }
