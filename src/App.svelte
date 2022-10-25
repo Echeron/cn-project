@@ -58,8 +58,8 @@
     <div class="flex-fill flex-column d-flex">
       <div class="container">
         <div class="row">
-          <MenuCard title_key="soup1" desc_key="" btn_key="select" img_src="imgs/noodle.jpg"/>
-          <MenuCard title_key="soup2" desc_key="" btn_key="select" img_src="imgs/eegg.jpg"/>
+          <MenuCard title_key="soup1" desc_key="s1d" btn_key="select" img_src="imgs/noodle.jpg"/>
+          <MenuCard title_key="soup2" desc_key="s2d" btn_key="select" img_src="imgs/eegg.jpg"/>
         </div>
       </div>
     </div>

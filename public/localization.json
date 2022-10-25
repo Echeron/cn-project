@@ -105,16 +105,16 @@
       "cn": "一杯冰咖啡。"
     },
     "dbun": {
-      "en": "TODO",
-      "cn": "TODO"
+      "en": "Two buns filled with pork, shredded cabbage, shredded carrots, and seasonings. Warm and savory, you can’t go wrong with this dish.",
+      "cn": "两个包子，里面有猪肉、卷心菜丝、胡萝卜丝和调味料。暖暖的，咸味，吃好了。"
     },
     "dvbun": {
-      "en": "TODO",
-      "cn": "TODO"
+      "en": "Two buns filled with mushrooms, bok choy, and seasonings. A little sweet, a little salty, a good vegetarian option.",
+      "cn": "两个素菜包子蘑菇、白菜和调味料的小圆面包。有点甜，有点咸，不错的素食选择。"
     },
     "ddough": {
-      "en": "TODO",
-      "cn": "TODO"
+      "en": "Two sticks of bread made from flour, an egg, milk, butter, and water then deep fried. Light and a little salty.",
+      "cn": "两根面包由面粉、鸡蛋、牛奶、黄油和水制成再油炸。清淡，有点咸。"
     },
     "drice": {
       "en": "A scoop of rice served on the side.",
@@ -122,7 +122,7 @@
     },
     "p1": {
       "en": "A restaurant for all your college student needs. Enjoy warm Chinese food while you study on a cold day with savory salty foods and a drink of your choice.",
-      "cn": "大学生饭馆。冷天学习，吃热中国菜，咸味的，盐的，好吃极了。"
+      "cn": "大学生饭馆。冷天学习，吃暖和中国菜，咸味的，盐的，好吃极了。"
     },
     "p2": {
       "en": "A website made for my 201 Chinese class. It brings together many Chinese dishes for a faux restaurant designed to cater to college students with warm dishes that can be made cheaply. Recipes for dishes to be made at home can be found under recipes, which are all in English for convenience.",
@@ -131,6 +131,14 @@
     "locate": {
       "en": "Locate us Here!",
       "cn": "地址"
+    },
+    "s1d": {
+      "en": "A bowl of pork, chicken, rice noodles, spring onions, lettuce, mushrooms and seasonings. A warm savory dish for a cold busy day.",
+      "cn": "一碗猪肉，鸡肉，米粉，葱，生菜，蘑菇和调味料。暖和的咸味菜，适合冷忙的一天。"
+    },
+    "s2d": {
+      "en": "A bowl of eggs, chicken broth, sesame oil, cornstarch, and seasonings. A little salty and a little sweet, it's a good vegetarian option.",
+      "cn": "一碗鸡蛋、鸡汤、麻油、玉米淀粉和调味料。有点咸，有点甜。一个很好的素食选择。"
     }
   }
 }
